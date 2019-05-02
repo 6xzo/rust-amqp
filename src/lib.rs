@@ -100,7 +100,7 @@ pub const VERSION: &'static str = env!("CARGO_PKG_VERSION");
 
 pub use session::{Session, Options};
 pub use channel::{Channel, Consumer};
-pub use basic::{Basic, GetResult};
+pub use basic::{Basic, GetResult, GetIterator};
 pub use session::AMQPScheme;
 pub use amqp_error::AMQPError;
 pub use amq_proto::{protocol, Table, TableEntry};
